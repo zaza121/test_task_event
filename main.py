@@ -10,19 +10,6 @@ result = None
 registrantList = []
 
 # get the json data
-# json_test = """
-
-# {
-#   "registrant":
-#      {
-#         "name": "Tom Jones",
-#         "email": "tom@jones.com",
-#         "phone": "3211234567",
-#      }
-# }
-
-# """
-
 json_test = """
 [
 {
