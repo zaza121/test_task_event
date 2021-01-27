@@ -66,3 +66,7 @@ number_of_contact_after = len(environment.contacts.getAll())
 number_of_lead_after = len(environment.leads.getAll())
 print("after test: %d contacts" % number_of_contact_after)
 print("after test: %d leads" % number_of_lead_after)
+
+
+answer = environment.contacts.findContactByEmail("uma@thurs.com")
+assert answer[0].name == "Uma Thurman"
